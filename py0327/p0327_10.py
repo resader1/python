@@ -24,3 +24,5 @@ for n in range(1,11):
 print("횟수.{}".format(n))
 print("사용 숫자.{}".format(list))
 print("랜덤번호.{}".format(x))
+
+
