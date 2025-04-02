@@ -7,4 +7,28 @@ students = [
 count = 4 # 학생 번호를 생성
 title = ['번호','이름','국어','영어','수학','합계','평균','등수']
 
-
+while True:
+    print("[학생성적프로그램]")
+    print("1. 학생성적입력")
+    print("2. 학생성적출력")
+    print("0. 프로그램종료")
+    choice = input("번호 입력")
+    if choice == 1:
+            print("학생성적입력")
+            no = count
+            name = input("이름 입력/0입력시 프로그램 종료")
+            if name == 0:
+                break
+            kor = int(input("국어성적입력"))
+            eng = int(input("국어성적입력"))
+            math = int(input("국어성적입력"))
+            total = kor+eng+math
+            avg = total/3
+            rank = 0
+            students.append({"no":no,"name":name,"kor":kor,"eng":eng,"math":math,"total":total,"avg":avg,"rank":rank})
+            
+    elif choice == 2:
+        pass
+    elif choice == 0:
+        print("프로그램 종료")
+        break
