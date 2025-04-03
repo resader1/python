@@ -28,7 +28,7 @@ while True:
             students.append({"no":no,"name":name,"kor":kor,"eng":eng,"math":math,"total":total,"avg":avg,"rank":rank})
             
     elif choice == 2:
-        pass
+        print("학생 성적 출력")
     elif choice == 0:
         print("프로그램 종료")
         break
