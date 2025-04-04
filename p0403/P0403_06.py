@@ -25,7 +25,8 @@ while True:
     choice = int(input("원하는 번호를 입력하세요. : "))
 
     if choice == 1:
-        print("[ 학생 성적 입력]")
+        print("[ 학생 성적 입력 ]")
+        
         
     elif choice == 2:
         pass
