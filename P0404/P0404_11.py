@@ -48,7 +48,7 @@ while True:
         print("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}".format(*title))
         print("-"*60)
         for s in students:
-            print(f"{s['no']}\t{s['name']}\t{s['kor']}\t{s['eng']}\t{s['math']}\t{s['total']}\t{s['avg']}\t{s['rank']}")
+            print(f"{s['no']}\t{s['name']}\t{s['kor']}\t{s['eng']}\t{s['math']}\t{s['total']}\t{s['avg']:.2f}\t{s['rank']}")
             
         
     elif choice == 3:
