@@ -17,6 +17,10 @@ class Student:
         
     def stu_avg(self):
         self.avg = self.total/3
+    def __le__(self,s):
+        return (self.total<=s.total)
+    def __ge__(self,s):
+        return(self.total>=s.total)
     
     def __eq__(self,s): # 다른객체 1개를 매개변수로 전달받음.
         return(self.total == s.total) # True, 다르면 False
